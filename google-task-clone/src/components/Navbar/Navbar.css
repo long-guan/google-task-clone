@@ -1,0 +1,29 @@
+.burger {
+    width: max(24px, 1.333vw);
+    height: max(24px, 1.333vw);
+}
+
+.burgerContainer {
+    padding: max(18px, 1vw);
+}
+
+.burgerContainer:hover {
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: max(36px, 2vw);
+}
+
+.margin {
+    margin-top: max(5px, 0.2vh);
+    margin-bottom: max(5px, 0.2vh);
+    margin-left: max(20px, 0.2vh);
+    margin-right: max(20px, 0.2vh);
+}
+
+.leftSpacing {
+    gap: max(9px, 0.5vw);
+}
